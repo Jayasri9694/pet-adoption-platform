@@ -1,0 +1,123 @@
+/* General container styles */
+.pet-list-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading styles */
+.pet-list-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Search bar container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Search input field */
+.search-input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Search button */
+.search-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Search button hover effect */
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Pet list container */
+.pet-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual pet card */
+.pet-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+/* Pet card information */
+.pet-info h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.pet-info p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Button styles */
+.adopt-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Adopt button hover effect */
+.adopt-btn:hover {
+  background-color: #007bff;
+}
+
+/* Not logged in message */
+.not-logged-in {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  color: #721c24;
+}
+
+.not-logged-in h2 {
+  font-size: 1.8rem;
+}
+
+.not-logged-in p {
+  font-size: 1rem;
+  color: black;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}

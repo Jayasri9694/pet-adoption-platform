@@ -1,0 +1,60 @@
+/* Overall container styling */
+.adopt-pet-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Application form container */
+.application-form-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .adopt-pet-container {
+    padding: 0.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .application-form-container {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+}
